@@ -104,15 +104,21 @@
 <ul>
 <li><strong>进阶篇</strong><br>在获得了入门阶段的各种成就感加成之后，js的加入就有点点不那么友好了。刚开始学js的时候，基本上就是悠悠哉哉纯看了好几个星期，然则并没有什么用，因为看看就忘了。后来还好在学长的督促下才开始写了点东西。下面是写的两个js相关的东西：<br><strong>（1）登录弹框</strong><br>就是实现一个点击按钮出现由遮蔽层和弹出层构成的登录界面，但暂时还没实现登陆功能。当时看了几个慕课的视频，讲的很详细，还挺有帮助的。<br>下面是当时的笔记：<br><img src="http://i4.buimg.com/ffc341ad8b99f6ac.png" alt="登录框笔记1"><br><img src="http://i4.buimg.com/070e73324751ccdb.png" alt="登录框笔记2"><br><img src="http://i4.buimg.com/103c9d016af4ec41.png" alt="登录框笔记3"></li>
 </ul>
-<p><strong>（2）网络请求</strong><br>刚开始写网络请求的时候很懵，js、json、Ajax啥的完全是凌乱的。后来终于理清楚了一点：<br>  jQuery 底层 AJAX 实现。简单易用的高层实现见 $.get, $.post 等。$.ajax() 返回其创建的 XMLHttpRequest 对象。大多数情况下你无需直接操作该函数，除非你需要操作不常用的选项，以获得更多的灵活性。</p>
+<p><strong>（2）网络请求</strong><br>刚开始写网络请求的时候很懵，js、json、Ajax啥的完全是凌乱的。后来终于理清楚了一点：<br>  jQuery 底层 AJAX 实现。简单易用的高层实现见 $.get, $.post 等。$.ajax() 返回其创建的 XMLHttpRequest 对象。大多数情况下你无需直接操作该函数，除非你需要操作不常用的选项，以获得更多的灵活性。<br>  .ajax()中有POST和GET两个方法，用于向某URL发送或者接收数据，dataType是返回的数据类型，这一点W3School上做了比较详细的说明：<br>  <img src="http://i2.buimg.com/f09176b9fc793ec5.png" alt="数据类型"><br>  另外回调函数也是一个很重要的部分，根据个人需要的不同可以尝试不同的返回方式。（其实这一块我还没怎么好好研究）<br>   关于跨域问题，学长在某次踩坑的时候偶然发现了一款插件（Access-Control-Allow-Origin）可以有效的解决这个问题，后来每次都是用的那个东西，体验效果还不错。<br>   下面是一个最简单的网络请求，虽然只能实现最简单的功能，但是包含了实现一个简单网络请求需要包含的几个部分，脑子凌乱的时候看看还是能找回点感觉的：<br>   <img src="http://i4.buimg.com/e7463cd243c60e11.png" alt=""><br>   <strong>特别要注意的是js是区分大小写的，所以在写代码的时候一定要切记所有的函数名称啥的一定要按官方文档上的写（血和泪的教训啊！！！）</strong></p>
+<p>   <em>好的吧，这也就算对之前学习的几个比较印象深刻的地方做了下总结，其实还有一些东西没写，下次再写咯！啊哈哈</em></p>
+<p>   文章中很多东西参考自：</p>
+<ol>
+<li><a href="http://www.w3school.com.cn/" target="_blank" rel="external">W3school在线</a></li>
+<li><a href="http://www.imooc.com/learn/58" target="_blank" rel="external">慕课网——弹出层效果</a></li>
+</ol>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/05/15/前端小白小小结/" data-id="cio8707g00000j8f0lj6m6ro6" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/05/15/前端小白小小结/" data-id="cio89ehwe0002lgf055j2pm50" class="article-share-link">Share</a>
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/web/">web</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/前端，小白/">前端，小白</a></li></ul>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/web/">web</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/前端/">前端</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/小白/">小白</a></li></ul>
 
     </footer>
   </div>
@@ -156,7 +162,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/05/03/hello-world/" data-id="cio8707gg0002j8f0nausip47" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/05/03/hello-world/" data-id="cio89ehvj0000lgf0ktlkmvzg" class="article-share-link">Share</a>
       
       
     </footer>
@@ -185,7 +191,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/web/">web</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/前端，小白/">前端，小白</a></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/web/">web</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/前端/">前端</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/小白/">小白</a></li></ul>
     </div>
   </div>
 
@@ -195,7 +201,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/web/" style="font-size: 10px;">web</a> <a href="/tags/前端，小白/" style="font-size: 10px;">前端，小白</a>
+      <a href="/tags/web/" style="font-size: 10px;">web</a> <a href="/tags/前端/" style="font-size: 10px;">前端</a> <a href="/tags/小白/" style="font-size: 10px;">小白</a>
     </div>
   </div>
 
